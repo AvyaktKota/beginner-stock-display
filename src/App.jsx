@@ -23,7 +23,10 @@ export default function App() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8">
         <div className="mb-6">
           <h2 className="text-2xl font-bold text-white">Beginner-Friendly Stocks</h2>
-          <p className="text-gray-500 text-sm mt-1">A curated list of stable, widely-held stocks.</p>
+          <p className="text-gray-500 text-sm mt-1">
+            A curated list of stable, widely-held stocks — a great starting point for new investors.
+            Prices auto-refresh every 60 seconds with a live API key.
+          </p>
         </div>
         {error && (
           <div className="mb-5 flex items-center gap-3 bg-yellow-500/10 border border-yellow-500/20
