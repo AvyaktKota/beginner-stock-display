@@ -1,3 +1,23 @@
+// Clearbit logo URLs — fall back to colored avatar when unavailable
+export const LOGO_URLS = {
+  AAPL:    'https://logo.clearbit.com/apple.com',
+  MSFT:    'https://logo.clearbit.com/microsoft.com',
+  GOOGL:   'https://logo.clearbit.com/google.com',
+  AMZN:    'https://logo.clearbit.com/amazon.com',
+  NVDA:    'https://logo.clearbit.com/nvidia.com',
+  TSLA:    'https://logo.clearbit.com/tesla.com',
+  KO:      'https://logo.clearbit.com/coca-cola.com',
+  V:       'https://logo.clearbit.com/visa.com',
+  JNJ:     'https://logo.clearbit.com/jnj.com',
+}
+
+// Gradient colors for stocks/ETFs without logos
+export const AVATAR_COLORS = {
+  SPY:     ['#1e3a5f', '#3b82f6'],
+  QQQ:     ['#4c1d95', '#8b5cf6'],
+  'BRK.B': ['#78350f', '#f59e0b'],
+}
+
 // Realistic mock data used when no API key is set
 // Sparkline = last 7 data points for the mini chart
 
