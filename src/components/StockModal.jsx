@@ -36,7 +36,7 @@ export default function StockModal({ stock, onClose }) {
       onClick={onClose}
     >
       <div
-        className="relative bg-gray-900 border border-gray-700 rounded-2xl w-full max-w-xl p-6 shadow-2xl"
+        className="relative bg-gray-900 border border-gray-700 rounded-2xl w-full max-w-xl p-6 shadow-2xl animate-fade-in"
         onClick={e => e.stopPropagation()}
       >
         {/* Header */}
