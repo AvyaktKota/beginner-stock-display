@@ -3,7 +3,7 @@ import { BEGINNER_STOCKS, MOCK_QUOTES } from '../data/mockData'
 
 const API_KEY = import.meta.env.VITE_FINNHUB_API_KEY
 
-// Build a simulated sparkline using a real closing price as the anchor
+// Generates a realistic sparkline anchored to the actual current price
 function buildSparkline(price) {
   const points = []
   let val = price * 0.97
