@@ -27,4 +27,11 @@ export default {
     },
   },
   plugins: [],
+  safelist: [
+    'border-white/5', 'border-white/6', 'border-white/8', 'border-white/10', 'border-white/15',
+    'bg-white/4', 'bg-white/5', 'bg-white/10',
+    'bg-green-500/8', 'bg-green-500/12',
+    'bg-red-500/12',
+    'bg-[#0a0a0a]', 'bg-[#080808]', 'bg-[#0f0f0f]',
+  ]
 }
