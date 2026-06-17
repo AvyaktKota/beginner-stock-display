@@ -23,7 +23,10 @@ export default function Header({ lastUpdated, loading, onRefresh, usingMock }) {
         {/* Status + refresh */}
         <div className="flex items-center gap-3 text-sm text-gray-500">
           {usingMock && (
-            <span className="px-2 py-0.5 rounded-full bg-yellow-500/10 text-yellow-400 text-xs border border-yellow-500/20">
+            <span
+              title="No API key set — showing realistic demo data. Add VITE_FINNHUB_API_KEY to .env to fetch live prices."
+              className="px-2 py-0.5 rounded-full bg-yellow-500/10 text-yellow-400 text-xs border border-yellow-500/20 cursor-help"
+            >
               Demo data
             </span>
           )}
