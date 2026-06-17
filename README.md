@@ -1,4 +1,4 @@
-# ValueGlance Stock Dashboard
+# Beginner-Friendly Stock Dashboard
 
 A responsive stock price dashboard built with React, Tailwind CSS, and Recharts. Fetches live data from the [Finnhub API](https://finnhub.io) and falls back to realistic demo data when no API key is configured.
 
