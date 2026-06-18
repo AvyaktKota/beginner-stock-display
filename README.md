@@ -13,17 +13,6 @@ A responsive stock price dashboard built with React, Tailwind CSS, and Recharts.
 - **Loading spinner** and **error handling** with graceful fallback to demo data
 - **Demo data badge** — clear indicator when running without a live API key
 
-## Getting Started
-
-```bash
-npm install
-cp .env.example .env
-# Add your free Finnhub key to .env
-npm run dev
-```
-
-Get a free API key at [finnhub.io](https://finnhub.io) (30-second signup).
-
 ## Tech Stack
 
 - React 18
@@ -34,4 +23,4 @@ Get a free API key at [finnhub.io](https://finnhub.io) (30-second signup).
 
 ## Deployment
 
-Deployed on Vercel. Set `VITE_FINNHUB_API_KEY` in your Vercel project's environment variables.
+Deployed on Vercel. 
